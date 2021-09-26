@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museum</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="icon" href="assets/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Forum:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+</head>
+<body> <!--  background="assets/img/background.jpg"> -->
+  <header>
+    <div class="logo">
+      <img src="assets/img/logo.png" alt="logo">
+      <!-- <div class="louvre">Louvre</div> -->
+      <louvre>Louvre</louvre><!-- Error: Element louvre not allowed as child of element div in this context. - validator.w3.org -->
+    </div>
+  <nav>
+    <a href="#visiting">Visiting</a>
+    <a href="#explore">Explore</a>
+    <a href="#video">Video</a>
+    <a href="#tickets">Tickets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  </header>
+    <main>
+      <!-- <div class="welcome"> -->
+      <section id="welcome">
+      <!-- style="background: black url('assets/img/background.jpg')"> -->
+        <br><br><br>
+        <h2 class="up">Welcome</h2><br>
+        <h2 class="up">to the Louvre</h2>
+        <br><br><div class="txt">From the castle to the museum</div>
+        <br><br><button class="button-red">Discover the Louvre </button>
+        <img src="assets/img/background.jpg" width="1215" alt="background">
+        <!-- background-image: "assets/img/" -->
+      </section>
+      <section class="white" id="visiting">
+        <h2 class="upgold"><br>Virtual tour</h2>
+        <br>
+        <div class="grid-tour">
+          <div class="grid_item">
+            <img src="assets/img/Virtual_tour/Royal_Palace.jpg" alt="Royal Palace">
+            <br><div class="txt">Royal Palace</div><br>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <div class="grid_item">
+            <img src="assets/img/Virtual_tour/Denon_Wing.jpg" alt="Denon Wing">
+            <br><div class="txt">Denon Wing</div><br>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <div class="grid_item">
+            <img src="assets/img/Virtual_tour/Colonnade_Perrault.jpg" alt="Colonnade Perrault">
+            <br><div class="txt">Colonnade Perrault</div><br>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <div class="grid_item">
+            <img src="assets/img/Virtual_tour/Greek_hall.jpg" alt="Greek hall">
+            <br><div class="txt">Greek hall</div><br>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <div class="grid_item">
+            <img src="assets/img/Virtual_tour/Mona_Lisa.jpg" alt="Mona Lisa">
+            <br><div class="txt">Mona Lisa</div><br>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <div class="grid_item">
+            <img src="assets/img/Virtual_tour/Night_Palace.jpg" alt="Night Palace">
+            <br><div class="txt">Night Palace</div><br>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+        </div>
+      </section>
+      <section id="explore">
+        <h2 class="up"><br>Picture explore</h2>
+        <hr>
+        <div class="txt"><br><p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+        <br><p>It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century.</p>
+        <br><p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p></div>
+        <center>
+          <img src="assets/img/Picture.jpg" width="720" alt="Picture">
+        </center>
+        <div class="up"><br><br></div>
+      </section>
+      <section class="white" id="video">
+        <h2 class="up"><br/></h2><!-- Warning: Empty heading. - validator.w3.org -->
+        <img src="assets/img/Video.jpg" width="1440" alt="Video">
+        <input type="range" name="volume" id="volume">
+        <input type="range" name="progress_bar" id="progress_bar">
+        <div class="upgold"><br>Video journey</div><br>
+        <div class="txt">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</div>
+      </section>
+      <section id="tickets">
+        <h2 class="up"><br>Buy tickets<hr></h2>
+        <!-- <br><div class="txt"><b>Ticket type</b></div>
+        <br><div class="txt"><input type="radio" name="option" value="a1" checked>Permanent exhibition<Br>
+        <input type="radio" name="option" value="a2">Temporary exhibition<Br>
+        <input type="radio" name="option" value="a3">Combined Admission<Br></div> -->
+        <div class="grid-tickets">
+          <div class="grid_item">
+            <img src="assets/img/Tickets.jpg" width="720" alt="Picture">
+          </div>
+          <div class="grid_item">
+            <div class="txt">Amount</div>
+            <div class="txt">Basic 18+</div>
+            <div class="txt">
+              <input type="number" name="basic" id="basic">
+              <!-- [- 1 +] -->
+            </div>
+            <div class="txt">Senior 65+</div>
+            <div class="txt">
+              <input type="number" name="senior" id="senior">
+              <!-- [- 1 +] -->
+            </div>
+            <div class="txt">Total €220</div>
+            <br><button>Buy Now</button>
+            <div class="up"><br></div>
+          </div>
+        </div>
+        <img src="assets/img/parallax 1.jpg" alt="parallax">
+      </section>
+      <section class="white" id="contact">
+        <div class="up"><br></div>
+        <h2 class="upgold">Contacts</h2>
+        <hr>
+        <p>Palais Royal</p>
+        <p>Musee du Louvre</p>
+        <br>
+        <p>address: 75001 Paris, France</p>
+        <p>phone: +33(0) 1 40 20 50 50</p>
+        <p>mail: info@louvre.fr</p>
+        <img src="assets/img/Rectangle.png" width="960" alt="Map">
+      </section>
+    </main>
+    <footer>
+        <img src="assets/img/logo.png" alt="logo">
+        <louvre>Louvre</louvre><!-- Element louvre not allowed as child of element footer in this context. - validator.w3.org -->
+        <div class="txt">Welcome Video</div>
+        <div class="txt">Visiting Tickets</div>
+        <div class="txt">Explore Contacts</div>
+        <hr>
+        <!-- <div class="txt">знак копирайта, год создания сайта, ссылка на RS School, ваш GitHub username со ссылкой на ваш гитхаб-аккаунт</div> -->
+        <div class="txt">&copy; 2021 &nbsp&nbsp<a href="https://rs.school/js/">RS School</a>&nbsp&nbsp&nbsp<a href="https://github.com/MaxusRU/">MaxusRU</a></div>
+    </footer>
+</body>
+</html>

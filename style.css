@@ -1,0 +1,165 @@
+/* @font-face { */
+  /* font-family: "Forum"; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* Браузер сначала попробует найти шрифт локально */
+  /* src: local("Forum"), */
+  /* <link href="https://fonts.googleapis.com/css?family=Forum:regular" rel="stylesheet" /> */
+/* } */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+
+input,button,textarea{font-family: inherit}
+
+html {
+  background: #030303;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  position: relative;
+
+  /* outline: #ffffff 1px solid; */
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  /* outline: red 1px solid; */
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+
+  /* outline: yellow 1px solid; */
+}
+
+nav a {
+  margin: 30px;
+  color: #ffffff;
+  font-family: Roboto;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+}
+
+.white {
+  background: #ffffff;
+  color: #000000;
+  /* text-transform: uppercase; */
+}
+
+/*#welcome { */
+/*  background-image: url("img/background.jpg"); */ /* Фоновый цвет и фоновый рисунок*/
+/*} */
+
+.up, louvre, .upgold {
+  text-transform: uppercase;
+}
+
+
+.up {
+  font-family: Forum;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+louvre {
+  font-family: Forum;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+.upgold {
+  color: #9D8665;
+
+  font-family: Forum;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-align: left;
+
+}
+
+gold {
+  color: #9D8665;
+}
+
+hr {
+  color: #710707;
+  height: 3px;
+}
+
+button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.button-red {
+  color: #FFFFFF;
+  background: #710707;
+  border-radius: 0px;
+}
+
+.txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 2px;
+}
+
+.grid-tour {
+  display: grid;
+  /* position: relative; */
+  /* grid-template-columns: 30% minmax(150px, 300px) 50%; */
+  grid-template-columns: 1fr 1fr; 
+   /* 50% 50%; */
+  /* grid-template-columns: repeat (2, 1fr); */
+}
+
+.grid-tickets {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+/* h1 { 
+    color: #ff00ff;
+} */
